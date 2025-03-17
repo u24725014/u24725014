@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Consult";
+}
+
+<h2>Book a consultation with your lecturer.</h2>
+
+<form>
+    <h4>Your details</h4>
+    <div class="row">
+        <div class="mb-3 col">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required>
+        </div>
+
+        <div class="mb-3 col">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <div class="col-9"><input type="email" class="form-control" id="email" required</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="comments" class="form-label">Comments</label>
+        <textarea class="form-control" id="comment"></textarea>
+    </div>
+
+    <button class="btn btn-success">Submit</button>
+</form>
+
